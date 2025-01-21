@@ -110,6 +110,11 @@
     rgb(233, 190, 237) 100%
   );
 } */
+.left-right-icon {
+  font-size: 40px;
+  text-align: center;
+  color: orange;
+}
 .Curriculum {
   text-align: center;
   font-weight: 700;
@@ -328,6 +333,14 @@ media
   .container-1 {
     font-weight: 700;
     font-size: 32px;
+    text-align: center;
+  }
+  .left-right-icon {
+  }
+  /* .container-2 {
+    justify-content: center;
+  } */
+  .Dynamic-World {
     text-align: center;
   }
 }
