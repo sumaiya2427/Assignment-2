@@ -30,6 +30,7 @@
 .header-part {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .nav-link-1 {
   text-decoration: none;
@@ -64,6 +65,8 @@
   border-radius: 5px;
   color: white;
   background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .header-logo {
   width: 60px;
@@ -72,6 +75,7 @@
 .header-part {
   width: 100%;
   height: 100px;
+  margin-top: 20px;
 }
 .container-1 {
   font-weight: 700;
@@ -141,6 +145,11 @@
   font-weight: 500;
   font-size: 1rem;
   color: rgba(128, 128, 128, 1);
+}
+marquee > p {
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(233, 39, 78);
 }
 
 .box-1,
@@ -245,6 +254,7 @@
 .btn-last {
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .second-conainer {
   display: grid;
@@ -296,6 +306,7 @@
 .social-icon {
   display: flex;
   gap: 5px;
+  margin-top: 10px;
 }
 .social-icon > img {
   width: 20px;
@@ -327,14 +338,26 @@
 }
 .footer-width {
   width: 100%;
+  padding: 20px 10px;
   /* height: 250px; */
   background-color: rgb(64, 190, 239);
 }
+
 .Australia-child {
   /* border: 5px solid yellow; */
   /* width: 300px; */
   width: 100%;
 }
+.fast-part {
+  display: flex;
+  align-items: center;
+}
+.math-text {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
 /* .small-chalild {
   width: 100%;
 } */
@@ -355,16 +378,19 @@ media
   .btn {
     display: none;
   }
-  .fast-part {
-  }
 
   .header-part {
     display: flex;
     justify-content: start;
     justify-content: space-between;
+    border-bottom: 2px solid rgb(238, 191, 103);
+  }
+  .hero-kids-parants {
+    text-align: center;
   }
   .hide {
     display: block;
+    /* align-content: center; */
   }
   .main-container {
     flex-direction: column-reverse;
@@ -373,7 +399,7 @@ media
     /* margin-left: 0; */
   }
   .hero-kids-img {
-    width: 100%;
+    width: 90%;
   }
   img {
     max-width: 100%;
@@ -401,6 +427,7 @@ media
     padding: 30px;
     width: 210px;
     max-width: 100%;
+    height: auto;
   }
   .left-right-icon,
   .chailds {
